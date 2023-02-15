@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Pigintuvas </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <div class="cursor">
+            <img rel="preload" class="mouse mouse1" src="img/hand-1.png" alt="" srcset="">
+            <img rel="preload" class="mouse mouse2" src="img/hand-2.png" alt="" srcset="">
+        </div>
+
+        <div class="stage noselect">
+            
+            <div class="timer">Tavo laikas - <span id="seconds">00</span>:<span id="tens">00</span></div>
+            <div class="layer" >
+                <img rel="preload" src="images/0.png" alt="" class="img0">
+                <div class="divas">
+
+                <img rel="preload" src="images/1.png" alt="" class="img1">
+                <img rel="preload" src="images/2.png" alt="" class="img2">
+                <img rel="preload" src="images/3.png" alt="" class="img3">
+                <img rel="preload" src="images/4.png" alt="" class="img4">
+                <img rel="preload" src="images/5.png" alt="" class="img5">
+            </div>
+
+            <script>
+                var ell = document.querySelector('.layer');
+
+       ell.addEventListener('click', function(e){
+       window.mraid ? mraid.open(Adform.getClickURL('clickTAG')) : window.open(dhtml.getVar('clickTAG', "https://www.example.com/1"), dhtml.getVar('landingPageTarget', '_blank'));
+      });
+
+            </script>
+
+                <div class="img-col">
+
+                    <img src="images/logo.png" alt="" srcset="">
+                    <img class="mums" src="images/30mums.png" alt="" srcset="">
+                    <img class="cta" src="images/CTA.png" alt="" srcset="">
+                </div>
+            </div>
+        <div id="container0" class="noselect">
+
+
+        </div>
+        <div id="container1" class="noselect">
+
+        </div>
+    </div>
+    <div class="reload">
+
+        <img src="images/reload.png" alt="" srcset="">
+    </div>
+        <script src="app.js"></script>
+    </body>
+
+</html>

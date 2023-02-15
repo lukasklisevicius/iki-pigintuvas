@@ -1,0 +1,17 @@
+{
+    "version": "1.0",
+    "uniqueId": "3780400e51b01e049636477039a1bdcc",
+    "title": "IKI-Pigintuvas-970x600_main_asset",
+    "description": "",
+    "width": 970,
+    "height": 600,
+    "events": {
+        "enabled": 0,
+        "list": {
+        }
+    },
+    "clicktags": {
+        "clickTAG": "https:\/\/example.com\/1"
+    },
+    "source": "index.html"
+}
