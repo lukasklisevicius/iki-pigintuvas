@@ -375,38 +375,38 @@ window.addEventListener('click',(e)=>{
 
     if(e.target.classList.contains('ball-img')){
       if(e.target.parentElement.classList.contains('ball0')){
-        dhtml.sendEvent('1','kiti-balionai')
+        // dhtml.sendEvent('1','kiti-balionai')
         pops +=1
         total +=1
         pop(e.target,0)
       }
       if(e.target.parentElement.classList.contains('ball1')){
-        dhtml.sendEvent('1','kiti-balionai')
+        // dhtml.sendEvent('1','kiti-balionai')
         pops +=1
         total +=1
         pop(e.target,1)
       }
       if(e.target.parentElement.classList.contains('ball2')){
-        dhtml.sendEvent('1','kiti-balionai')
+        // dhtml.sendEvent('1','kiti-balionai')
         pops +=1
         total +=1
         pop(e.target,2)
       }
       if(e.target.parentElement.classList.contains('ball3')){
-        dhtml.sendEvent('1','kiti-balionai')
+        // dhtml.sendEvent('1','kiti-balionai')
         pops +=1
         total +=1
         pop(e.target,3)
       }
       if(e.target.parentElement.classList.contains('ball4')){
-        dhtml.sendEvent('1','kiti-balionai')
+        // dhtml.sendEvent('1','kiti-balionai')
         pops +=1
         total +=1
         pop(e.target,4)
       }
         
         if(e.target.parentElement.classList.contains('ball5')){
-          dhtml.sendEvent('2','darzoviu kainos')
+          // dhtml.sendEvent('2','darzoviu kainos')
           pops +=1
           counter +=1
           total +=1
@@ -421,7 +421,7 @@ window.addEventListener('click',(e)=>{
             },1000)
         }
         if(e.target.parentElement.classList.contains('ball6')){
-          dhtml.sendEvent('3','pieno kainos')
+          // dhtml.sendEvent('3','pieno kainos')
             pop(e.target,6)
             counter +=1
             pops +=1
@@ -435,7 +435,7 @@ window.addEventListener('click',(e)=>{
             },1000)
         }
         if(e.target.parentElement.classList.contains('ball7')){
-          dhtml.sendEvent('4','zuvies kainos')
+          // dhtml.sendEvent('4','zuvies kainos')
             pop(e.target,7)
             counter +=1
             pops +=1
@@ -449,7 +449,7 @@ window.addEventListener('click',(e)=>{
             },1000)
         }
         if(e.target.parentElement.classList.contains('ball8')){
-          dhtml.sendEvent('5','vaisiu kainos')
+          // dhtml.sendEvent('5','vaisiu kainos')
             pop(e.target,8)
             counter +=1
             pops +=1
@@ -463,7 +463,7 @@ window.addEventListener('click',(e)=>{
             },1000)
         }
         if(e.target.parentElement.classList.contains('ball9')){
-          dhtml.sendEvent('6','mesos kainos')
+          // dhtml.sendEvent('6','mesos kainos')
             pop(e.target, 9)
             counter +=1
             pops +=1
@@ -956,7 +956,7 @@ document.querySelector('.reload').addEventListener('click',()=>{
   gsap.to('.img-col',0.5,{opacity:0,display:'none'})
   gsap.to('.reload',0.5,{rotate:'-=360',opacity:0,display:'none'})
   balloonsGame()
-  dhtml.sendEvent('7','reload')
+  // dhtml.sendEvent('7','reload')
 })
 
 function renderEl(){
